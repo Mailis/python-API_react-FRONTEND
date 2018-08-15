@@ -1,0 +1,83 @@
+﻿
+Kui API käivitub,
+siis ta tekitab ise andmebaasi ja tabeli.
+
+
+Andmebaasi seaded on failis
+
+smit/db/conn_config.py
+
+mysql dump asub
+
+
+smit/db/mysql_script.sql
+
+
+
+Muud API seaded on failis
+
+
+smit/app_configs.py
+
+
+------------------------
+
+
+
+Frontendi seaded on 
+failis
+
+
+smit_frontend/smit_front/.env
+
+
+
+
+
+
+------------------------
+
+
+
+API 
+
+
+kaustas 
+smit
+
+
+
+installimine:
+
+pip3 install -r requirements.txt
+
+
+
+käivitamine:
+
+flask run
+
+
+
+
+------------------------
+
+frontend
+
+
+kaustas 
+smit_frontend/smit_front
+
+
+
+installineine:
+
+npm install --save
+
+
+
+käivitamine:
+
+npm start
+
+
